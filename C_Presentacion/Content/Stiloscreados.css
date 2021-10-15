@@ -1,0 +1,88 @@
+﻿body {
+    background-color: green!important;
+}
+
+section {
+    float: left;
+    border-right: solid;
+    border-width: 1px;
+    margin-top: 140px;
+    margin-left: 80px;
+    width: 450px;
+}
+
+.miespacio {
+    margin-top: 60px;
+    margin-left: 50px;
+    margin-right: 50px
+}
+
+form {
+    /*color: gray*/
+    color: red
+}
+
+h2 {
+    color: gray !important
+}
+
+input[type="radio"] {
+    display: none
+}
+
+.milabel {
+    position: page;
+    color: dimgray;
+    border: 1px solid dimgray;
+    border-radius: 5px;
+    display: flex;
+    width: 150px
+}
+
+.milabel2:before {
+    content: "";
+    height: 25px;
+    width: 25px;
+    border: 1px solid;
+    border-radius: 50%;
+    border-right: 20px;
+}
+
+input[type="radio"]:checked + .milabel {
+    background-color: #337ab7;
+    color: white
+}
+
+input[type="radio"]:checked + .milabel2:before {
+    height: 25px;
+    width: 25px;
+    border: 10px solid;
+    background-color: gray;
+}
+
+aside {
+    float: left;
+    margin-top: 95px;
+    margin-left: 60px;
+    color: lightslategray;
+}
+
+div {
+}
+
+input {
+    width: 300px
+}
+
+footer {
+    margin-top: 500px;
+    padding-top: 7px;
+    padding-left: 35px;
+    height: 50px;
+}
+
+.medio {
+    margin-left: 18% !important;
+    border-radius: 50px 50px !important;
+    width: 180px
+}

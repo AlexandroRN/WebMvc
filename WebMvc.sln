@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31624.102
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "C_Presentacion", "C_Presentacion\C_Presentacion.csproj", "{9F4C0E36-AB55-4B7F-A449-C36998F10D5A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "C_Datos", "C_Datos\C_Datos.csproj", "{727747F8-D215-47BA-8225-AC5C4582A822}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "C_Entidad", "C_Entidad\C_Entidad.csproj", "{15A8ADA4-E5F8-4DD0-8187-23F04D156F5E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "C_Negocio", "C_Negocio\C_Negocio.csproj", "{6BEF07C4-2E58-4D2D-8DAA-E8892ACFA074}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServiciosWeb.WebApi", "ServiciosWeb.WebApi\ServiciosWeb.WebApi.csproj", "{4EF95A43-E51B-45F5-A778-D263B85EEB2B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServiciosWeb.ClienteWeb", "ServiciosWeb.ClienteWeb\ServiciosWeb.ClienteWeb.csproj", "{94C1B2C9-4A29-4DE7-AD83-89535B288EE8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServiciosWeb.Dominio", "ServiciosWeb.Dominio\ServiciosWeb.Dominio.csproj", "{EF6E4CDB-7F82-4C06-8E50-56EF97D932C9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9F4C0E36-AB55-4B7F-A449-C36998F10D5A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9F4C0E36-AB55-4B7F-A449-C36998F10D5A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9F4C0E36-AB55-4B7F-A449-C36998F10D5A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9F4C0E36-AB55-4B7F-A449-C36998F10D5A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{727747F8-D215-47BA-8225-AC5C4582A822}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{727747F8-D215-47BA-8225-AC5C4582A822}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{727747F8-D215-47BA-8225-AC5C4582A822}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{727747F8-D215-47BA-8225-AC5C4582A822}.Release|Any CPU.Build.0 = Release|Any CPU
+		{15A8ADA4-E5F8-4DD0-8187-23F04D156F5E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{15A8ADA4-E5F8-4DD0-8187-23F04D156F5E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{15A8ADA4-E5F8-4DD0-8187-23F04D156F5E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{15A8ADA4-E5F8-4DD0-8187-23F04D156F5E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6BEF07C4-2E58-4D2D-8DAA-E8892ACFA074}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6BEF07C4-2E58-4D2D-8DAA-E8892ACFA074}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6BEF07C4-2E58-4D2D-8DAA-E8892ACFA074}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6BEF07C4-2E58-4D2D-8DAA-E8892ACFA074}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4EF95A43-E51B-45F5-A778-D263B85EEB2B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4EF95A43-E51B-45F5-A778-D263B85EEB2B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4EF95A43-E51B-45F5-A778-D263B85EEB2B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4EF95A43-E51B-45F5-A778-D263B85EEB2B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{94C1B2C9-4A29-4DE7-AD83-89535B288EE8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{94C1B2C9-4A29-4DE7-AD83-89535B288EE8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{94C1B2C9-4A29-4DE7-AD83-89535B288EE8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{94C1B2C9-4A29-4DE7-AD83-89535B288EE8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EF6E4CDB-7F82-4C06-8E50-56EF97D932C9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF6E4CDB-7F82-4C06-8E50-56EF97D932C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EF6E4CDB-7F82-4C06-8E50-56EF97D932C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EF6E4CDB-7F82-4C06-8E50-56EF97D932C9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E6729B02-B004-47E6-AC71-2860732A6DB1}
+	EndGlobalSection
+EndGlobal

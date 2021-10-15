@@ -1,0 +1,65 @@
+﻿
+@{
+    ViewBag.Title = "Formulario";
+}
+
+<h2><strong>Registrate</strong></h2>
+<section style="margin-top:100px; margin-left:200px">
+    <form>
+        <div>
+            <label for="name">Nombre: </label>
+        </div>
+        <div>
+            <input type="text" name="name" placeholder="Nombre" />
+        </div>
+        <br />
+        <div>
+            <label for="name">Apellido: </label>
+        </div>
+        <div>
+            <input type="text" placeholder="Apellido" />
+        </div>
+        <div>
+            <br />
+            <div>
+                <label for="name">Tipo de usuario</label>
+            </div>
+            <div>
+                <input type="radio" id="empleador" name="rdbtn" value="empleador" />
+                <label for="empleador" class="milabel milabel2">Soy empleador</label>
+            </div>
+            <div>
+                <input type="radio" id="busco" name="rdbtn" value="busco" />
+                <label for="busco" class="milabel milabel2">Busco empleo</label>
+            </div>
+        </div>
+    </form>
+</section>
+
+<section style="margin-top:100px">
+    <form>
+        <div>
+            <label for="name">Correo: </label>
+        </div>
+        <div>
+            <input type="email" placeholder="ejemplo@ejemplo.com" />
+        </div>
+        <br />
+        <div>
+            <label for="name">Contraseña: </label>
+        </div>
+        <div>
+            <input type="password" placeholder="Contraseña" />
+        </div>
+        <br />
+        <div>
+            <label for="name">Verificar contraseña: </label>
+        </div>
+        <div>
+            <input type="password" placeholder="Verificar contraseña" />
+        </div>
+        <br />
+        <button class="btn btn-primary medio">Registrar</button>
+        <article>Ya tengo una cuenta <strong><a href="/Home/Index">Ingresar</a> </strong> </article>
+    </form>
+</section>

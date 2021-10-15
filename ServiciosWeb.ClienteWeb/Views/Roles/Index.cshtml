@@ -1,0 +1,27 @@
+﻿@Model List<Roles>
+    @{
+        ViewBag.Title = "Index";
+    }
+
+    <h2>Lista de roles</h2>
+    <hr />
+
+    <table>
+        <thead>
+            <tr>
+                <td>IDRol</td>               
+                <td>Tipo</td>               
+                <td>Usuario</td>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var Roles in Model)
+            {
+            <tr>
+                <td>@Roles.IDRol</td>
+                <td>@Roles.Tipo</td>
+                <td>@Roles.Usuario</td>
+            </tr>
+            }
+        </tbody>
+    </table>

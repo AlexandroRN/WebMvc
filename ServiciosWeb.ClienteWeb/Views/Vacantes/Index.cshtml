@@ -1,0 +1,40 @@
+﻿@Model List<Vacantes>
+    @{
+        ViewBag.Title = "Index";
+    }
+
+    <h2>Lista de vacantess</h2>
+    <hr />
+
+    <table>
+        <thead>
+            <tr>
+                <td>IdVacante</td>
+                <td>idcategoria</td>
+                <td>Empresa</td>
+                <td>Posicion</td>
+                <td>Descripcion</td>
+                <td>Horario</td>
+                <td>Ubicacion</td>
+                <td>Categoria</td>
+                <td>Solicitud</td>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var Vacantes in Model)
+            {
+            <tr>
+                <td>@Vacantes.IdVacante</td>
+                <td>@Vacantes.idcategoria</td>
+                <td>@Vacantes.Empresa</td>
+                <td>@Vacantes.Posicion</td>
+                <td>@Vacantes.Descripcion</td>
+                <td>@Vacantes.Horario</td>
+                <td>@Vacantes.Ubicacion</td>
+                <td>@Vacantes.Categoria</td>
+                <td>@Vacantes.Solicitud</td>
+            </tr>
+            }
+        </tbody>
+    </table>
+

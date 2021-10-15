@@ -1,0 +1,28 @@
+﻿@Model List<Categoria>
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Lista de categorias</h2>
+<hr />
+
+<table>
+    <thead>
+        <tr>
+            <td>IdCategoria</td>
+            <td>NombreCategoria</td>
+            <td>Vacantes</td>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var Categoria in Model)
+        {
+        <tr>
+            <td>@Categoria.IdCategoria</td>
+            <td>@Categoria.NombreCategoria</td>
+            <td>@Categoria.Vacantes</td>
+        </tr>
+        }
+    </tbody>
+</table>
+

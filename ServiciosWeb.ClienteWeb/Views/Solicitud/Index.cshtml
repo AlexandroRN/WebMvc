@@ -1,0 +1,31 @@
+﻿@Model List<Solicitud>
+    @{
+        ViewBag.Title = "Index";
+    }
+
+    <h2>Lista de solicitudes</h2>
+    <hr />
+
+    <table>
+        <thead>
+            <tr>
+                <td>IdSolicitud</td>
+                <td>idusuario</td>
+                <td>idvacante</td>
+                <td>Usuario</td>
+                <td>Vacantes</td>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var Solicitud in Model)
+            {
+            <tr>
+                <td>@Solicitud.IdSolicitud</td>
+                <td>@Solicitud.idusuario</td>
+                <td>@Solicitud.idvacante</td>
+                <td>@Solicitud.Usuario</td>
+                <td>@Solicitud.Vacantes</td>
+            </tr>
+            }
+        </tbody>
+    </table>
